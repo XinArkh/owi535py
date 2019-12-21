@@ -44,8 +44,8 @@ class Owi535:
         """
         Rotate the base motor (M5).
 
-        :param value: motion state flag, if smaller than 0, rotate anti-clock wise; \
-        if larger than 0, rotate clock wise; if equals 0, cancel the rotation.
+        :param value: motion state flag, if smaller than 0, rotate anticlockwise; \
+        if larger than 0, rotate clockwise; if equals 0, cancel the rotation.
         """
         if value < 0:  # anti-clock wise
             self.state.startACW('base')
@@ -108,12 +108,12 @@ class Owi535:
         if larger than 0, close the gripper; if equals 0, cancel the motion.
         """
         if value < 0:
-            self.state.startACW('grip')  # open
+            self.state.startACW('gripper')  # open
         elif value > 0:
-            self.state.startCW('grip')  # close
+            self.state.startCW('gripper')  # close
         else:
-            self.state.stopCW('grip')
-            self.state.stopACW('grip')
+            self.state.stopCW('gripper')
+            self.state.stopACW('gripper')
 
     def SwitchLight(self, value=0):
         """

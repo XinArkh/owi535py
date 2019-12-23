@@ -12,10 +12,10 @@ The bits of `Byte0` are assigned as follows:
 
 | Bit Positions |  Joints  |                  Rules                   |
 | :-----------: | :------: | :--------------------------------------: |
-|     0, 1      | Gripper  |    00-do not move, 01-close, 10-open     |
-|     2, 3      |  Wrist   | 00-do not move, 01-move up, 10-move down |
-|     4, 5      |  Elbow   | 00-do not move, 01-move up, 10-move down |
-|     6, 7      | Shoulder | 00-do not move, 01-move up, 10-move down |
+|     1, 0      | Gripper  |    00-do not move, 01-close, 10-open     |
+|     3, 2      |  Wrist   | 00-do not move, 01-move up, 10-move down |
+|     5, 4      |  Elbow   | 00-do not move, 01-move up, 10-move down |
+|     7, 6      | Shoulder | 00-do not move, 01-move up, 10-move down |
 
 Note there is no '11' in the rule for any joint.
 
@@ -29,7 +29,7 @@ The bits of `Byte1` are assigned as follows:
 
 | Bit Positions | Joints |                            Rules                             |
 | :-----------: | :----: | :----------------------------------------------------------: |
-|     0, 1      |  Base  | 00-do not move, 01-rotate clockwise, 10-rotate anticlockwise |
+|     1, 0      |  Base  | 00-do not move, 01-rotate clockwise, 10-rotate anticlockwise |
 
 Higher positioned bits are ignored.
 

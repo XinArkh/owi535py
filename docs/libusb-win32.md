@@ -4,7 +4,7 @@
 
 ## 1. Install libusb-win32 on SourceForge
 
-Directly download the `.exe` file and install it.
+Directly download the `.exe` file on [this page](https://sourceforge.net/projects/libusb-win32/files/libusb-win32-releases/1.2.6.0/) and install it.
 
 <p align="center">
 	<img src="./pic/libusb-win32-1.jpg" height=350>
@@ -12,7 +12,7 @@ Directly download the `.exe` file and install it.
 
 ## 2. Install the device filter for OWI-535 driver
 
-Open the installed filter installer, and install for the corresponding device.
+Open the installed filter installer, and install a device filter for the corresponding device.
 
 <p align="center">
 	<img src="./pic/libusb-win32-2.jpg" height=350>

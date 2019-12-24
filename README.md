@@ -25,7 +25,7 @@
 - Base Motion (shoulder) Range: 180°
 - Base Rotation Range: 270°
 
-Modeling parameters of the robot to be supplemented...
+Modeling parameters: see [a-mohsen/Robotic-Arm-Automation](https://github.com/a-mohsen/Robotic-Arm-Automation)
 
 ## Message Rules
 
@@ -38,3 +38,4 @@ See [this doc](./docs/rules.md).
 ## References
 
 - [keszegrobert/owi535](https://github.com/keszegrobert/owi535)
+- [a-mohsen/Robotic-Arm-Automation](https://github.com/a-mohsen/Robotic-Arm-Automation)
